@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+nav {
+    width: 100vw;
+    height: 5vh;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.logo {
+    font-size: 25px;
+    cursor: pointer;
+    width: 5vw;
+    margin-left: 5vw;
+    color:white;
+}
+
+.logo:hover {
+    color: seagreen;
+    transition: 0.3s;
+    
+}
+ul {
+    width: 55vw;
+    height: 5vh;
+    text-align: center;
+    margin-left: 35vw;
+    
+}
+
+ul li {
+    font-size: 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color:white;
+}
+
+ul li a {
+    text-decoration:none;
+    color:white;
+
+}
+
+ul li a:hover {
+    color: seagreen;
+    transition: 0.3s;
+    
+
+
+
+}
+
+ul li:hover {
+    color: seagreen;
+    transition: 0.3s;
+    
+
+}
+main 
+{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 5vh;
+    
+}
+h2 {
+    font-size: 40px;
+    color: seagreen;
+    margin-top: 1px;
+    text-shadow: 4px 4px 6px black;
+}
+.text {
+   
+    color:white;
+    margin-top: 20px;
+    text-shadow: 4px 4px 6px black;
+}
+
+
+.media-right {
+    width: 50vw;
+    margin-left: 5vw;
+}
+
+
+.table 
+{
+    width: 50%;
+    margin-bottom: 20px;
+    border: 1px solid cornsilk;
+    border-collapse: collapse;
+    margin-left: 20%;
+    color: white;
+    margin-top: 1px;
+   
+}
+
+.table th {
+
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid white;
+    color: seagreen;
+}
+
+.table td {
+
+    border: 1px solid white;
+    padding: 5px;
+}
+
+dl {
+    
+    
+    color: white;
+    margin-left: 3%;
+    font-size: 1.5em;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+
+dt {
+    
+    color: seagreen;
+}
+
+dd {
+
+    margin-left: 4%;
+    
+
+}
+
